@@ -46,3 +46,5 @@
 #export NO_TCMALLOC="True"
 
 ###########################################
+
+export COMMANDLINE_ARGS="$COMMANDLINE_ARGS --skip-torch-cuda-test --upcast-sampling --opt-split-attention --lowvram --no-half --use-cpu all"
